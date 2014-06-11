@@ -118,6 +118,9 @@ void play (int board[][BOARD_HEIGHT], int DEATHboard[][BOARD_HEIGHT]) {
         DEATHboard[i][j] = 0;
       }
     }
+    else{
+      DEATHboard[i][j] = 0;
+    }
   }
 
   /* copy the new board back into the old board */
